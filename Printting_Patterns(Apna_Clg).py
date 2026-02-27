@@ -25,5 +25,5 @@ for i in range(row ):
          print(" ", end="")
     print()
 
-
+                                              #hallow pattern base on user input
 print("----------------------------------------------------------------------------------------")
