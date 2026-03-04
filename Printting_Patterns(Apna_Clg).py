@@ -25,5 +25,31 @@ for i in range(row ):
          print(" ", end="")
     print()
 
-
+                                         #hallow pattern base on user input
 print("----------------------------------------------------------------------------------------")
+
+for i in range(5):
+    for j in range(i):
+        print("*", end="")
+    print()
+                                          #Half pyramid pattern
+print("----------------------------------------------------------------------------------------")
+
+x = "****"
+for i in range(4):
+        print(x[i:])
+                                          # Half pyramid
+print("----------------------------------------------------------------------------------------")
+
+for i in range(5):
+ for j in range(5):
+     if (j<=4-i):
+         print(" ", end="")
+     else:
+             print("*", end="")
+ print()
+                             #Half Pyramid (Right) Star Pattern
+print("----------------------------------------------------------------------------------------")
+
+
+
