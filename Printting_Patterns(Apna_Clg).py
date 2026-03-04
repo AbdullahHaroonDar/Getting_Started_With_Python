@@ -25,7 +25,11 @@ for i in range(row ):
          print(" ", end="")
     print()
 
-                                         #hallow pattern base on user input
+# <<<<<<< HEAD
+#
+# =======
+#                                               #hallow pattern base on user input
+# >>>>>>> 4a38d430a2d25faeb852d0607d73519d8ea7196b
 print("----------------------------------------------------------------------------------------")
 
 for i in range(5):
