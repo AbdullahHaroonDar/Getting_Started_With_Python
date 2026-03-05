@@ -54,5 +54,23 @@ for i in range(5):
                              #Half Pyramid (Right) Star Pattern
 print("----------------------------------------------------------------------------------------")
 
+# increasing number pattern
+
+for i in range(1,6):
+    for j in range(1,i+1):
+        print( j ,end="")
+    print()
+
+print("----------------------------------------------------------------------------------------")
+
+# inverse increasing number pattern
+
+for i in range(1,6):
+   for j in range(1,6-i+1):
+       print( j ,end="")
+   print()
+
+print("----------------------------------------------------------------------------------------")
+
 
 
