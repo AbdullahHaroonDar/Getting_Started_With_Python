@@ -77,7 +77,28 @@ for i in range(5):
     for j in range(i+1):
         print(x[j],end="")
     print()
+print("----------------------------------------------------------------------------------------")
 
+
+#Floyd's Triangle
+x = 1
+for i in range(5):
+    for j in range(i+1):
+        print(x,end=" ")
+        x += 1
+    print()
+print("----------------------------------------------------------------------------------------")
+
+#0-1 Triangle
+for i in range(5):
+    for j in range(i+1):
+        sum = i+j
+        if(sum % 2==0):
+            print("1 ", end="")
+        else:
+            print("0 ", end="")
+    print()
+print("----------------------------------------------------------------------------------------")
 
 
 
